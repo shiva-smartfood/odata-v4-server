@@ -395,7 +395,7 @@ class ODataStreamWrapper extends Transform {
         if (typeof done == "function") done();
     }
 
-    protected _flush(done?: Function) {
+    _flush(done?: Function) {
         if (typeof done == "function") done();
     }
 
